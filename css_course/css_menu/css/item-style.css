@@ -13,6 +13,7 @@ body {
 
 nav {
   background-color: gold;
+  padding: 0.5rem 0.1rem;
 }
 
 ul {
@@ -22,12 +23,12 @@ ul {
 
 li {
   display: inline-block;
-  padding: 0.5rem 0.25rem;
 }
 
 li a,
 li a:visited {
   color: #333;
+  padding: 0.5rem 0.1rem;
   text-decoration: none;
 }
 
@@ -35,5 +36,4 @@ li a:focus,
 li a:hover {
   background-color: #333;
   color: gold;
-  padding: 0.5rem 0;
 }
