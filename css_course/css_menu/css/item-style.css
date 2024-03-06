@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #333;
+  font-family: "Shantell sans", cursive;
+}
+
+nav {
+  background-color: gold;
+}
+
+ul {
+  list-style: none;
+  text-align: right;
+}
+
+li {
+  display: inline-block;
+  padding: 0.5rem 0.25rem;
+}
+
+li a,
+li a:visited {
+  color: #333;
+  text-decoration: none;
+}
+
+li a:focus,
+li a:hover {
+  background-color: #333;
+  color: gold;
+  padding: 0.5rem 0;
+}
